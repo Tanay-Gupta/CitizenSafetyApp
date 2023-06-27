@@ -1,16 +1,62 @@
-# hack_kav
 
-A new Flutter project.
+# Citizen safety app (UI)
 
-## Getting Started
+This App was developed during Kavach Hackathon. This App helps to flag malicious/ fraud indicatorsin real-time.
+- Mobile Number
+- SMS Headers
+- URL Links
 
-This project is a starting point for a Flutter application.
+The app will search the above mentioned aspects related data through the given database of suspects as fraud provided by Indian Cyber Crime Coordination Center(currently demo data)in real time. Through SVM algorithms in ML, live tracking and prediction of malicious data will be done through the app for the data which is not present in the database. On finding suspected link, number, header, UPI address etc. the app will notify the user before accessing that particular data and even it will provide option to mark as 'fraud' . This mark can be used for updation in database
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+![App Screenshot](Screenshots/1.png)
+![App Screenshot](Screenshots/2.png)
+
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Tanay-Gupta/hack_kav
+```
+
+Go to the project directory
+
+```bash
+  cd hack_kav
+```
+
+Install dependencies
+
+```bash
+  flutter pub get
+
+```
+
+Run the app:
+
+```bash
+  flutter run
+
+```
+
+
+## Contributing
+
+Contributions are welcome! If you have any feature requests or bug reports, please feel free to open an issue or a pull request.
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+

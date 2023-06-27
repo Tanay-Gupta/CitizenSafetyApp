@@ -12,8 +12,7 @@ The app will search the above mentioned aspects related data through the given d
 
 ## Screenshots
 
-![App Screenshot](Screenshots/1.png)
-![App Screenshot](Screenshots/2.png)
+![App Screenshot](screenshots/1.jpg)
 
 
 
